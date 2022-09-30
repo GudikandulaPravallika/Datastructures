@@ -13,5 +13,6 @@ for i in range(n):
     x=int(input())
     lt.append(x)
 print(lt)
-print(insertionSort(lt))
+s=insertionSort(lt)
+print(s)
 
